@@ -1,0 +1,68 @@
+/*
+    - 
+    - 
+    -
+*/
+
+
+
+#Background{
+    background-color: rgb(184, 222, 235);
+    height: 100%;
+    width: 100%;
+}
+
+.home-work-grid {
+    display: -ms-grid;
+    display: grid;
+    margin-top: 15%;
+    margin-right: 40px;
+    margin-left: 40px;
+    grid-auto-flow: row;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr auto auto auto;
+    grid-template-rows: 1fr auto auto auto;
+}
+
+.project-div-home {
+    display: block;
+    padding: 0px;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    background-color: #000;
+    background-image: url(https://uploads-ssl.webflow.com/5e450cf…/5e60ea3…_Header%20Test%201.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    perspective: none;
+    transform: translate(0px, 0px);
+    transition: all 300ms ease-out;
+}
+
+.home-header {
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-family: Rmneue, sans-serif;
+    color: #929292;
+    font-weight: 300;
+    letter-spacing: -0.03em;
+    width: 100%;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    opacity: 1;
+}
