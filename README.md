@@ -14,7 +14,7 @@
 ---
 
 
-## ideas
+## Ideas
 - Google has an amazing design page called materials 
 - I took inspiration from an apple design, I found him on twitter haha
 
@@ -27,6 +27,6 @@
     <li>https://www.jyang.io/</li>
 </ul>
 
-- thank you again to everyone above :D... great sites
+- ~ thank you again to everyone above :D... great sites ~
 
 ---
