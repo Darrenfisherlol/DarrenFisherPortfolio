@@ -1,9 +1,3 @@
-/*
-    - 
-    - 
-    -
-*/
-
 .Background{
     background-color: rgb(0, 0, 0);
     height: 100%;
@@ -19,7 +13,7 @@
     bottom: auto;
     background-color: #000;
     color: #ffff;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 300;
     font-family: Rmneue, sans-serif;
 } 
@@ -37,7 +31,6 @@
     color: #ffff;
 }
 
-
 .home-header {
     -webkit-text-size-adjust: 100%;
     box-sizing: border-box;
@@ -46,12 +39,12 @@
     font-weight: 300;
     letter-spacing: -0.03em;
     width: 100%;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 30px;
     text-decoration: none;
     padding-right: 15px;
     padding-left: 15px;
-    padding-top: 10%;
+    padding-top: 5%;
     opacity: 1;
 }
 
@@ -63,7 +56,7 @@
     font-weight: 300;
     letter-spacing: -0.03em;
     width: 100%;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 30px;
     text-decoration: none;
     /*padding-right: 15px;
@@ -73,42 +66,57 @@
 
 .home-grid {
     display: grid;
-    margin-top: 15%;
-    margin-right: 40px;
-    margin-left: 40px;
-    grid-auto-flow: row;
+
+    margin-top: 2.5%;
+    margin-right: 20px;
+    margin-left: 20px;
+
     grid-auto-columns: 1fr;
     grid-column-gap: 40px;
     grid-row-gap: 40px;
-    -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr auto auto auto;
-    grid-template-rows: 1fr auto auto auto;
+    grid-template-rows: 1fr 1fr;
+
+
 }
 
 .home-grid-project {
-    display: block;
-    padding: 0px;
-    grid-auto-columns: 1fr;
-    grid-column-gap: 16px;
-    grid-row-gap: 16px;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: auto auto;
-    grid-template-rows: auto auto;
-    background-color: #000;
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-   
- 
-}
-
-.img-size{
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
     object-position: center;
     max-width: 100%;
     max-height: 100%;
+
+}
+
+.footer-body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    color: #929292;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: Rmneue, sans-serif;
+    text-decoration: none;
+
+}
+
+.footer-name{
+    size: 28px;
+    margin-left: 5%;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.footer-bold{
+    size: 28px;
+    font-weight: 300;
+}
+
+.footer-content{
+    text-decoration: none;
+    /* color:#ffff; */
+    text-align: right;
+    padding: 4%; 
 }
