@@ -93,32 +93,33 @@
 .footer-body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
+    margin-bottom: 20px;
     color: #929292;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 300;
     font-family: Rmneue, sans-serif;
-    text-decoration: none;
 
 }
 
 .footer-bold{
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 300;
+    color: #ffffff;
 }
 
 .footer-name{
     font-size: 22px;
     margin-left: 5%;
-    font-weight: 300;
-    color: #ffffff;
 }
 
+.footer-contact-mid{
+    /* text-align: right; */
+    text-align: left;
+}
 
-
-.footer-content{
-    text-decoration: none;
-    /* color:#ffff; */
+.footer-content-left{
     text-align: right;
-    padding: 4%; 
+    color:#ffff;
+    margin-right: 10%;
+
 }
