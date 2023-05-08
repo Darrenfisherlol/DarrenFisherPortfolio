@@ -95,24 +95,26 @@
     grid-template-columns: repeat(3, 1fr);
 
     color: #929292;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 300;
     font-family: Rmneue, sans-serif;
     text-decoration: none;
 
 }
 
+.footer-bold{
+    font-size: 26px;
+    font-weight: 300;
+}
+
 .footer-name{
-    size: 28px;
+    font-size: 22px;
     margin-left: 5%;
     font-weight: 300;
     color: #ffffff;
 }
 
-.footer-bold{
-    size: 28px;
-    font-weight: 300;
-}
+
 
 .footer-content{
     text-decoration: none;
